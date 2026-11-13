@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "year_start": { "type": "string", "label": "Year starts on", "description": "MM-DD, such as 05-20 for a birthday. Empty: January 1.", "default": "", "max_length": 5 },
+    "year_label": { "type": "string", "label": "Year label", "description": "Up to 8 letters. Empty: the year, such as 2026.", "default": "", "max_length": 8 },
+    "month_start": { "type": "integer", "label": "Month starts on day", "description": "Such as a payday. In shorter months, their last day.", "default": 1, "min": 1, "max": 31 },
+    "month_label": { "type": "string", "label": "Month label", "description": "Up to 8 letters, such as PAY. Empty: the month, such as NOV.", "default": "", "max_length": 8 },
+    "custom_label": { "type": "string", "label": "Own span label", "description": "Up to 8 letters, such as BABY.", "default": "", "max_length": 8 },
+    "custom_start": { "type": "string", "label": "Own span starts on", "description": "YYYY-MM-DD. Empty: no own span.", "default": "", "max_length": 10 },
+    "custom_end": { "type": "string", "label": "Own span ends on", "description": "YYYY-MM-DD, later than the start.", "default": "", "max_length": 10 },
+    "birth_date": { "type": "string", "label": "Birth date", "description": "YYYY-MM-DD, for the life views. Empty: no life views.", "default": "", "max_length": 10 },
+    "life_years": { "type": "integer", "label": "Life, years", "description": "The span of the life views.", "default": 80, "min": 1, "max": 96 }
+  }
+}

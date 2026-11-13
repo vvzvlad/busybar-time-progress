@@ -1,8 +1,8 @@
 {
-  "name": "busybar-year-progress",
+  "name": "busybar-time-progress",
   "private": true,
   "version": "0.1.0",
-  "description": "How much of the year, month, week and day has passed.",
+  "description": "How much of the year, month, week, day, your life or any span has passed.",
   "author": "vvzvlad",
   "type": "module",
   "scripts": {
