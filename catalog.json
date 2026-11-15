@@ -1,0 +1,6 @@
+{
+  "category": "clocks",
+  "short_description": "How much of the year, the month, your own span or your life has passed, as progress bars.",
+  "description": "## What you see\n\nTwo lines with progress bars: the year on top, such as 2026 87%, and under it the line you pick with the wheel.\n\n## Lines\n\n- **Month**, counted from any day: set 12 and you see how far you are from one payday to the next.\n- **Week** and **day**.\n- **Your own span** between two dates, with your label, such as BABY 75%.\n- **Life**: the share lived, from your birth date and the years you set.\n- Two pixel views, one pixel per unit: the days of the year, and the months of your life.\n\nThe year can start on any date too, such as your birthday. A spark runs along the year's bar at each new whole percent.\n\n## Settings\n\nThe year's start and label, the month's start day and label, your span's label and dates (YYYY-MM-DD), your birth date and the years of life. All of them are optional.\n\nWorks offline, on the BUSY Bar's own clock.",
+  "changelog": "First release: year, month, week, day, your own span, life, and two pixel views."
+}
